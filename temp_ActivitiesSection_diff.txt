@@ -1,0 +1,52 @@
+<<<<<<<
+              <img
+                src="/activity.jpg"
+                alt="Activity proof 1"
+                className="w-full h-full object-cover"
+              />
+=======
+              <img
+                src={`${import.meta.env.BASE_URL}activity.jpg`}
+                alt="Activity proof 1"
+                className="w-full h-full object-cover"
+              />
+>>>>>>>
+<<<<<<<
+              <img
+                src="/activity2.jpg"
+                alt="Activity proof 2"
+                className="w-full h-full object-cover"
+              />
+=======
+              <img
+                src={`${import.meta.env.BASE_URL}activity2.jpg`}
+                alt="Activity proof 2"
+                className="w-full h-full object-cover"
+              />
+>>>>>>>
+<<<<<<<
+              <img
+                src="/activity3.jpg"
+                alt="Activity proof 3"
+                className="w-full h-full object-cover"
+              />
+=======
+              <img
+                src={`${import.meta.env.BASE_URL}activity3.jpg`}
+                alt="Activity proof 3"
+                className="w-full h-full object-cover"
+              />
+>>>>>>>
+<<<<<<<
+              <img
+                src="/activity4.jpg"
+                alt="Activity proof 4"
+                className="w-full h-full object-cover"
+              />
+=======
+              <img
+                src={`${import.meta.env.BASE_URL}activity4.jpg`}
+                alt="Activity proof 4"
+                className="w-full h-full object-cover"
+              />
+>>>>>>>

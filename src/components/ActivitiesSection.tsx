@@ -146,7 +146,7 @@ export const ActivitiesSection: React.FC = () => {
               whileHover={{ scale: 1.05 }}
             >
               <img
-                src="/activity.jpg"
+                src={`${import.meta.env.BASE_URL}activity.jpg`}
                 alt="Activity proof 1"
                 className="w-full h-full object-cover"
               />
@@ -156,7 +156,7 @@ export const ActivitiesSection: React.FC = () => {
               whileHover={{ scale: 1.05 }}
             >
               <img
-                src="/activity2.jpg"
+                src={`${import.meta.env.BASE_URL}activity2.jpg`}
                 alt="Activity proof 2"
                 className="w-full h-full object-cover"
               />
@@ -166,7 +166,7 @@ export const ActivitiesSection: React.FC = () => {
               whileHover={{ scale: 1.05 }}
             >
               <img
-                src="/activity3.jpg"
+                src={`${import.meta.env.BASE_URL}activity3.jpg`}
                 alt="Activity proof 3"
                 className="w-full h-full object-cover"
               />
@@ -176,7 +176,7 @@ export const ActivitiesSection: React.FC = () => {
               whileHover={{ scale: 1.05 }}
             >
               <img
-                src="/activity4.jpg"
+                src={`${import.meta.env.BASE_URL}activity4.jpg`}
                 alt="Activity proof 4"
                 className="w-full h-full object-cover"
               />

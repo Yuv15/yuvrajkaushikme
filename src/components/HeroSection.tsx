@@ -82,7 +82,7 @@ export const HeroSection: React.FC = () => {
                 transition={{ duration: 0.6 }}
               >
                 <ImageWithFallback
-                  src="/myphoto.png"
+                  src={`${import.meta.env.BASE_URL}myphoto.png`}
                   alt="Yuvraj Kaushik"
                   className="w-full h-96 object-cover"
                 />

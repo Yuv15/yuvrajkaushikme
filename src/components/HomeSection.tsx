@@ -139,7 +139,7 @@ export const HomeSection: React.FC = () => {
               <div className="w-48 h-48 lg:w-64 lg:h-64 rounded-full overflow-hidden border-4 border-transparent p-1 dark:border-4 dark:border-chart-1">
                 <div className="w-full h-full rounded-full overflow-hidden bg-background">
                   <ImageWithFallback
-                    src="/myphoto.png"
+                    src={`${import.meta.env.BASE_URL}myphoto.png`}
                     alt="Yuvraj Kaushik"
                     className="w-full h-full object-cover"
                   />

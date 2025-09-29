@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Moon, Sun, Menu, X } from 'lucide-react';
 import { motion } from "framer-motion";
-import { useTheme } from './ThemeProvider';
+import { useTheme } from '../lib/themeContext';
 
 export const SimpleHeader: React.FC = () => {
   const { theme, toggleTheme } = useTheme();

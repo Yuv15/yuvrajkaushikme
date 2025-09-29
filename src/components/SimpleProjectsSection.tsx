@@ -17,7 +17,7 @@ const projectsData: Project[] = [
     title: "ACI – Animal Classifier Web App",
     description: "Developed a Flask-based web app integrating a deep-learning model with Google's Teachable Machine, achieving 92% plus accuracy in animal classification. (July 2025)",
     technologies: ["HTML", "CSS", "JavaScript", "Python", "Flask", "Teachable Machine", "Render"],
-    image: "/aci.png",
+    image: `${import.meta.env.BASE_URL}aci.png`,
     demoLink: "https://simple-animal-classifier.onrender.com/",
     githubLink: "https://github.com/Yuv15/Simple-ACI-Animal-Classifier-"
   },
@@ -25,7 +25,7 @@ const projectsData: Project[] = [
     title: "Knight2D – 2D Godot Game",
     description: "Created a 2D game in Godot featuring a knight avatar that collects coins and dodges enemies and hazards. Published on Itch.io. (Dec 2024)",
     technologies: ["Godot Engine", "GDScript"],
-    image: "/knight2d.png",
+    image: `${import.meta.env.BASE_URL}knight2d.png`,
     demoLink: "https://yuvraj-15.itch.io/knight2d",
     githubLink: "https://github.com/Yuv15/First-2D-Game-Godot-"
   },
@@ -33,7 +33,7 @@ const projectsData: Project[] = [
     title: "Smart Placement Diary (MERN)",
     description: "Building a MERN stack application enabling students to manage placement records; designed to handle 5+ concurrent users and track 10+ placement entries for now. (Sept 2025)",
     technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "MongoDB Atlas"],
-    image: "/smartplacemnet.png",
+    image: `${import.meta.env.BASE_URL}smartplacemnet.png`,
     demoLink: "https://placelog.onrender.com/",
     githubLink: "https://github.com/Yuv15/Simple-Placement-Diary"
   },
@@ -41,7 +41,7 @@ const projectsData: Project[] = [
     title: "UI/UX Intern CodSoft (Virtual Internship)",
     description: "Designed and prototyped multiple sign-up and login pages during a 4-week virtual internship using Figma. Applied UI/UX principles to improve user flows and usability. (May 2024 - June 2024)",
     technologies: ["Figma", "UI/UX"],
-    image: "/uiux intern.png",
+    image: `${import.meta.env.BASE_URL}uiux intern.png`,
     demoLink: "https://www.behance.net/gallery/234753939/Music-Streaming-Platform"
   }
 ];
