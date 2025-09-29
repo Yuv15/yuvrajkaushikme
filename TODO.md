@@ -1,5 +1,0 @@
-- [x] Initialize git repository
-- [x] Add all files to git
-- [x] Commit changes
-- [x] Create GitHub repo and push using gh CLI
-- [x] Open Vercel to import the GitHub repo for deployment
