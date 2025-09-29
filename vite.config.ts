@@ -6,7 +6,7 @@ import react from '@vitejs/plugin-react'
 import path from 'path' 
 
 export default defineConfig({
-  base: '/iyuvrajkaushik/',
+  base: '/',
   // DELETE 'tailwindcss' from the plugins array
   plugins: [react()],
   resolve: {
